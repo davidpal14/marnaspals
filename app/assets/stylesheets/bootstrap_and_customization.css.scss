@@ -3,3 +3,12 @@ $navbar-inverse-bg: #bdc3c7;
 $navbar-inverse-link-color: #9900CC;
 $brand-primary: #9900CC;
 @import 'bootstrap';
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
