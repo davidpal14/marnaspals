@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :subscribers
+
  root "pages#home"
  get "about" => "pages#about"
  get "contactus" => "pages#contactus"
