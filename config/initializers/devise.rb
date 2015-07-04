@@ -7,7 +7,7 @@ Devise.setup do |config|
   # Devise will use the `secret_key_base` on Rails 4+ applications as its `secret_key`
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '3654d57a2b9c337dd6ebebfab2275f59d2cf005dc6d5bc2a9a37ed4249029255afa3e1281c3c8cab11d0e0ac1383fd1fc401b98343b5ed585560cfad170e58ed'
-
+  config.secret_key = 'b7735b4417da880c1d8c07cfcc20119dd5fe30b5a8ea8551a1ea518a0131996a3bdf730425f64ac6ef4383792d114c1ff09f78618fe809f8ebc78ae7bae80a15'
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
@@ -131,7 +131,7 @@ Devise.setup do |config|
   # config.remember_for = 2.weeks
 
   # Invalidates all the remember me tokens when the user signs out.
-  config.expire_all_remember_me_on_sign_out = true
+  # config.expire_all_remember_me_on_sign_out = true
 
   # If true, extends the user's remember period when remembered via cookie.
   # config.extend_remember_period = false
