@@ -23,6 +23,7 @@ class SubscribersController < ApplicationController
   def create
     @subscriber = Subscriber.new(subscriber_params)
     @subscriber.save
+    UserMailer.welcome_email(@subscriber).deliver!
     # respond_with(@subscriber)
     redirect_to root_path
   end

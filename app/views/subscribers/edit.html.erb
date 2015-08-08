@@ -1,6 +1,10 @@
+<% if user_signed_in? %>
+
 <h1>Editing subscriber</h1>
 
-<%= render 'form' %>
+<! <%= render 'form' %> 
 
 <%= link_to 'Show', @subscriber %> |
 <%= link_to 'Back', subscribers_path %>
+ 
+ <% end %> 
