@@ -4,8 +4,7 @@ class UserMailer < ActionMailer::Base
 	def welcome_email(subscribers)
 	    @subscribers = subscribers
 	    @url  = 'http://www.marnaspals.com/'
-	    mail(to: @subscribers.email, subject: '8 Tips to Write Better Application Essays')
-	  end
+	    mail(to: @subscribers.email, subject: 'Welcome To The Pal Post')
 
-
+	end
 end
