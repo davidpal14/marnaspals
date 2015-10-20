@@ -10,6 +10,9 @@ Rails.application.routes.draw do
  get "events" => "pages#events"
  get "resources" => "pages#resources"
  get "scholars" => "pages#scholars"
+ get "vball" => "pages#vball"
+ get "gala" => "pages#gala"
+ get "aa" => "pages#aa"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

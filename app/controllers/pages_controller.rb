@@ -18,6 +18,11 @@ class PagesController < ApplicationController
   end
   def donate
   end
-
+  def vball
+  end
+  def gala
+  end
+  def aa
+  end
   
 end
