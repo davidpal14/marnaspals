@@ -1,12 +1,52 @@
+
 $body-bg: #5200A3;
 $navbar-inverse-bg: #bdc3c7;
-$link-color: #000000;
+$link-color: #A366E0;
 $navbar-inverse-link-color: #9900CC;
 $brand-primary: #A366E0;
 $text-color: #FFFFFF;
+
 @import 'bootstrap';
+
+
+
 
 .wrapper {
     text-align: center;
 }
 
+.text-foo {
+  .text-emphasis-variant: #9900CC;
+}
+
+.hidden { display: none; }
+
+/*flash*/
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
