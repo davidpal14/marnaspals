@@ -22,6 +22,16 @@ $text-color: #FFFFFF;
 .hidden { display: none; }
 
 
+@media only screen and (max-width: 767px) {
+
+   font-size: 1em;
+   
+
+   
+      font-size: .5em;
+   }
+
+
 /*flash*/
 
 .alert-error {
