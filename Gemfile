@@ -42,6 +42,8 @@ group :production do
 end
 
 gem 'aws-sdk', '~> 2'
+
+gem 'mail', '~> 2.6', '>= 2.6.3'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
