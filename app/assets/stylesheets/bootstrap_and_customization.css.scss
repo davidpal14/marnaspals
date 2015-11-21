@@ -1,21 +1,28 @@
 
-$body-bg: #FFFFFF;
-$navbar-default-bg: rgb(138,43,226);
-$link-color: rgb(139,0,139);
-$navbar-default-link-color: #FFF;
+
+$body-bg: #5200A3;
+$navbar-inverse-bg: #bdc3c7;
+$link-color: #A366E0;
+$navbar-inverse-link-color: #9900CC;
 $brand-primary: rgb(138,43,226);
-$text-color: rgb(138,43,226) ;
+$text-color: #FFFFFF;
 
 @import 'bootstrap';
 
+
 /* old css
-$body-bg: rgb(139,0,139);
+$body-bg: #5200A3;
 $navbar-inverse-bg: #bdc3c7;
 $link-color: #A366E0;
 $navbar-inverse-link-color: #9900CC;
 $brand-primary: #A366E0;
 $text-color: #FFFFFF;
 */
+
+.navbar a {
+	font-size: 20px;
+	link-color: black;
+}
 
 .wrapper {
     text-align: center;
@@ -24,6 +31,11 @@ $text-color: #FFFFFF;
 .text-foo {
   .text-emphasis-variant: #9900CC;
 }
+
+.align-middle {
+	vertical-align: middle;
+	
+    }
 
 .hidden { display: none; }
 
