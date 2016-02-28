@@ -15,6 +15,12 @@ Rails.application.routes.draw do
  get "aa" => "pages#aa"
  get "infographic" => "pages#infographic"
  get "apply-here" => "pages#applyhere"
+ get "apply" => "pages#applyhere"
+ get "applynow" => "pages#applyhere"
+ get "apply-now" => "pages#applyhere"
+ get "apply" => "pages#applyhere"
+ get "applynow" => "pages#applyhere"
+ get "apply-now" => "pages#applyhere"
 
  match '/contacts',     to: 'contacts#new',             via: 'get'
 resources "contacts", only: [:new, :create]
